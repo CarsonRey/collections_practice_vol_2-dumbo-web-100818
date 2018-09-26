@@ -38,9 +38,6 @@ array.each do |hash|
 end
 # .count will return the size/length of an array BUT if you give it an argument, it will compare the elements in the array to that argument and return the amount of elements that are EQUAL to that argument.
 
-# [{:count=>2, :name=>"blake"}, {:count=>1, :name=>"ashley"}]
-# [{:name=>"blake"}, {:name=>"blake"}, {:name=>"ashley"}]
-
 def merge_data(keys, data)
   array = []
   data.each do |info_hash|
