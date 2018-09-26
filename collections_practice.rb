@@ -29,7 +29,7 @@ end
 
 def count_elements(array)
 new_array = []
-array.merge
+array.group_by
     
     binding.pry
        
