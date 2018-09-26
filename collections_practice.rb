@@ -29,10 +29,7 @@ end
 
 def count_elements(array)
 new_array = []
-array.each do |hash|
-  new_array << hash
-    hash.each do |key, name|
-    count = new_array.count(name)
+array.merge
     
     binding.pry
        
