@@ -34,7 +34,7 @@ array.each do |hash|
     new_array << {key => name, :count => array.count(hash)}
     end
   end
-  new_array
+  new_array.uniq
 end
 # .count will return the size/length of an array BUT if you give it an argument, it will compare the elements in the array to that argument and return the amount of elements that are EQUAL to that argument.
 
