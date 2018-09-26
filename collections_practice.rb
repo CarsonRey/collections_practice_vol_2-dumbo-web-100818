@@ -31,7 +31,7 @@ def count_elements(array)
 new_array = []
 array.each do |hash|
     hash.each do |key, name|
-    new_array << {key => name, :count => "#{array.count(name)}"}
+    new_array << {key => name, :count => array.count(name)
     
     
     binding.pry
